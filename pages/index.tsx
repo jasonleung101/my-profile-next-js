@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Header from './layout/header/header'
+import About from './sections/about/about'
 import Hero from './sections/hero/hero'
+import Skills from './sections/skills/skills'
 
 const Home: NextPage = () => {
   return (
@@ -18,11 +20,15 @@ const Home: NextPage = () => {
           <Hero/>
         </section>
         {/* About */}
-        <section id='about' className='snap-page'>About</section>
+        <section id='about' className='snap-page'>
+          <About />
+        </section>
         {/* Exp */}
         <section id='experience' className='snap-page'>Exp</section>
         {/* Skills */}
-        <section id='skills' className='snap-page'>Skills</section>
+        <section id='skills' className='snap-page'>
+          <Skills />
+        </section>
         {/* Projects */}
         <section id='projects' className='snap-page'>Projects</section>
         {/* Get in touch */}
