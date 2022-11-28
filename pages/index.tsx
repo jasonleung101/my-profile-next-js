@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from './layout/header/header'
+import Header from './components/header/header'
 import About from './sections/about/about'
 import Hero from './sections/hero/hero'
 import Skills from './sections/skills/skills'
